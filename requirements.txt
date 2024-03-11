@@ -1,3 +1,10 @@
 altair
 pandas
 streamlit
+pydup
+transformers
+langchain
+gtts
+os
+requests
+io
