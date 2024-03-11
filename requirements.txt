@@ -5,6 +5,5 @@ pydub
 transformers
 langchain
 gtts
-os
 requests
 io
