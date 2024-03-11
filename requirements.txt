@@ -1,7 +1,7 @@
 altair
 pandas
 streamlit
-pydup
+pydub
 transformers
 langchain
 gtts
