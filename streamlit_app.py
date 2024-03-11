@@ -2,6 +2,7 @@ import altair as alt
 import numpy as np
 import pandas as pd
 import streamlit as st
+import transformers
 from transformers import pipeline
 from langchain import HuggingFaceHub, HuggingFacePipeline
 from transformers import pipeline, Conversation
