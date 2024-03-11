@@ -46,11 +46,9 @@ def generate_advice(last_lines):
     )
     llm_chain = LLMChain(prompt=prompt, llm=llm, verbose=True)
     analysis = llm_chain.run(last_lines)
-    print(analysis)
     chatbot = pipeline(model="facebook/blenderbot-400M-distill")
 
-    conversation = Conversation("Give me advice on how to continue communication. Make sure you use this recommendations: {analysis}")
-    print(conversation)
+    conversation = Conversation(f"Give me advice on how to continue communication. Make sure you use this recommendations: {analysis}")
 
     conversation.add_message({"role": "user", "content": "What should I say to my partner?"})
     return chatbot(conversation.messages[-1]["content"])
