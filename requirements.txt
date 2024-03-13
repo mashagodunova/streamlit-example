@@ -6,3 +6,4 @@ transformers
 langchain
 gtts
 requests
+ffprobe
