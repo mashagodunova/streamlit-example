@@ -2,6 +2,7 @@ altair
 pandas
 streamlit
 pydub
+torch
 transformers
 langchain
 gtts
